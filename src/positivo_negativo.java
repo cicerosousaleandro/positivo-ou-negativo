@@ -5,21 +5,15 @@ public class positivo_negativo {
 		System.out.println("----- Programa Positivo ou negativo-----");
 		int numero = 0;
 		Scanner leitura = new Scanner(System.in);
-		System.out.println("Insira um número:");
+		System.out.println("Insira um nï¿½mero:");
 		numero = leitura.nextInt();
 		
 		if(numero >0)
-			System.out.println("Número é positivo");
+			System.out.println("Nï¿½mero ï¿½ positivo");
 		else if(numero <0)
-			System.out.println("Número é negativo");
+			System.out.println("Nï¿½mero ï¿½ negativo");
 		else if(numero ==0) {
-			System.out.println("O número é neutro");
+			System.out.println("O nï¿½mero ï¿½ neutro");
 		}
-		
-		
-		
-		
-
 	}
-
 }
