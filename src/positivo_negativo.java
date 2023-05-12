@@ -8,11 +8,11 @@ public class positivo_negativo {
 		System.out.println("Insira um n�mero:");
 		numero = leitura.nextInt();
 		
-		if(numero >0)
+		if (numero > 0)
 			System.out.println("N�mero � positivo");
-		else if(numero <0)
+		else if (numero < 0)
 			System.out.println("N�mero � negativo");
-		else if(numero ==0) {
+		else {
 			System.out.println("O n�mero � neutro");
 		}
 	}
